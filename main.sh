@@ -30,6 +30,7 @@ if [ $choice == "1" ]
     sudo cp /etc/fstab /etc/fstab.bak
     echo '/swapfile none swap sw 0 0' | sudo tee -a /etc/fstab
     cat /proc/sys/vm/swappiness
+    exit 0
 fi
 if [ $choice == "2" ]
     then
@@ -40,6 +41,7 @@ if [ $choice == "2" ]
     sudo cp /etc/fstab /etc/fstab.bak
     echo '/swapfile none swap sw 0 0' | sudo tee -a /etc/fstab
     cat /proc/sys/vm/swappiness
+    exit 0
 fi
 if [ $choice == "3" ]
     then
@@ -50,6 +52,7 @@ if [ $choice == "3" ]
     sudo cp /etc/fstab /etc/fstab.bak
     echo '/swapfile none swap sw 0 0' | sudo tee -a /etc/fstab
     cat /proc/sys/vm/swappiness
+    exit 0
 fi
 if [ $choice == "4" ]
     then
@@ -60,6 +63,7 @@ if [ $choice == "4" ]
     sudo cp /etc/fstab /etc/fstab.bak
     echo '/swapfile none swap sw 0 0' | sudo tee -a /etc/fstab
     cat /proc/sys/vm/swappiness
+    exit 0
 fi
 if [ $choice == "5" ]
     then
@@ -70,6 +74,7 @@ if [ $choice == "5" ]
     sudo cp /etc/fstab /etc/fstab.bak
     echo '/swapfile none swap sw 0 0' | sudo tee -a /etc/fstab
     cat /proc/sys/vm/swappiness
+    exit 0
 fi
 if [ $choice == "6" ]
     then
@@ -80,6 +85,7 @@ if [ $choice == "6" ]
     sudo cp /etc/fstab /etc/fstab.bak
     echo '/swapfile none swap sw 0 0' | sudo tee -a /etc/fstab
     cat /proc/sys/vm/swappiness
+    exit 0
 fi
 if [ $choice == "7" ]
     sudo fallocate -l 128G /swapfile
@@ -89,6 +95,7 @@ if [ $choice == "7" ]
     sudo cp /etc/fstab /etc/fstab.bak
     echo '/swapfile none swap sw 0 0' | sudo tee -a /etc/fstab
     cat /proc/sys/vm/swappiness
+    exit 0
 fi
 if [ $choice == "8" ]
     then
@@ -99,6 +106,7 @@ if [ $choice == "8" ]
     sudo cp /etc/fstab /etc/fstab.bak
     echo '/swapfile none swap sw 0 0' | sudo tee -a /etc/fstab
     cat /proc/sys/vm/swappiness
+    exit 0
 fi
 if [ $choice == "9" ]
     then
